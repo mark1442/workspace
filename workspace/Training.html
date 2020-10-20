@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Resproject</title>
+	  <link rel="stylesheet" href="css/style.css" type="text/css" />
+	  <meta charset="utf-8" />
+	  <meta name="viewport" content="width=device-width"/>
+	 <script src="js/jquery.js"></script>
+	  <script>
+	      //Toggle for width display
+		  var showWidth = 1;
+		  
+		  if(showWidth==1){
+		     $(document).ready(function(){
+			      $(window).resize(function(){
+				      var width = $(window).width();
+					  document.getElementById('output_width').innerHTML="Window Width:"+width.toString();
+				  
+				  });
+			 });
+		  }
+	  </script>
+    </head>
+<body>
+  <div id="output_width"></div>
+   <div id="container">
+      <header class="main-header">
+	      <img id="logo" src="images/main.png" alt="Tit" width="200" height="150"/>
+		  <nav class="main-nav">
+		     <ul>
+			    <li><a class="active" href="index.html">Home</a></li>
+				<li><a href="About Us.html">About Us</a></li>
+				<li><a href="Training.html">Training</a></li>
+				
+				<li><a href="Contact.html">Contact Us</a></li>
+				
+			 </ul>
+		  </nav>
+	  </header>
+	
+   <div id="content">
+	  <article class="art">
+	    <header class="art-header1">
+				    <h2 class="title"><a href="#"></a>We offer training in the following Areas</h2>
+					
+				 </header>
+				  <h3 class="title"><a href="#"></a>PROGRAMMING</h3>
+				 <p>Nothing is more satisfying than being able to breath life into you idea by the use of computers.Here at Transidence,we equip you with the necessary tools and skills you need to make this a reality.</p>
+			    
+				<h3 class="title"><a href="#"></a>CCNA</h3>
+				<p>To achieve CCNA Routing and Switching certification, one must earn a passing score on Cisco exam #200-120, or combined passing scores on both the "Interconnecting Cisco Network Devices" ICND1 #100-101 and ICND2 #200-101 exams. Passing the ICND1 grants one the Cisco Certified Entry Networking Technician (CCENT) certification. Passing scores are set by using statistical analysis and are subject to change. At the completion of the exam, candidates receive a score report along with a score breakout by exam section and the passing score for the given exam. Cisco does not publish exam passing scores because exam questions and passing scores are subject to change without notice.[5]</p>
+	  
+	            <h3 class="title"><a href="#"></a>ETHICAL HACKING</h3>
+				<p>The goal of this course is to help you master an ethical hacking methodology that can be used in a penetration testing or ethical hacking situation. You walk out the door with ethical hacking skills that are highly in demand, as well as the internationally recognized Certified Ethical Hacker certification! This course prepares you for EC-Council Certified Ethical Hacker exam 312-50.<br>
+The Certified Ethical Hacker program is the pinnacle of the most desired information security training program any information security professional will ever want to be in. To master the hacking technologies, you will need to become one, but an ethical one! The accredited course provides the advanced hacking tools and techniques used by hackers and information security professionals alike to break into an organization. As we put it, “To beat a hacker, you need to think like a hacker”.</p>
+				
+				<h3 class="title"><a href="#"></a>CYBER SECURITY</h3>
+				<p>    Computer security, also known as cybersecurity or IT security, is the protection of information systems from theft or damage to the hardware, the software, and to the information on them, as well as from disruption or misdirection of the services they provide.
+
+It includes controlling physical access to the hardware, as well as protecting against harm that may come via network access, data and code injection,[2] and due to malpractice by operators, whether intentional, accidental, or due to them being tricked into deviating from secure procedures.</p>
+	  
+	           
+	  
+	  </article>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+  <div class="clr"></div>
+	  <footer>
+	     <p>Copyright &copy; 2016 All Right Reserve</p>
+	  </footer>
+   </div>	
+</body>
+</html>

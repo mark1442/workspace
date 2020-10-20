@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Resproject</title>
+	  <link rel="stylesheet" href="css/style.css" type="text/css" />
+	 <link rel="stylesheet" href="css/project.css" type="text/css" />
+	  <meta charset="utf-8" />
+	  <meta name="viewport" content="width=device-width"/>
+	 <script src="js/jquery.js"></script>
+	  <script>
+	      //Toggle for width display
+		  var showWidth = 1;
+		  
+		  if(showWidth==1){
+		     $(document).ready(function(){
+			      $(window).resize(function(){
+				      var width = $(window).width();
+					  document.getElementById('output_width').innerHTML="Window Width:"+width.toString();
+				  
+				  });
+			 });
+		  }
+	  </script>
+    </head>
+<body>
+  <div id="output_width"></div>
+   <div id="container">
+      <header class="main-header">
+	      <img id="logo" src="images/main.png" alt="Tit" width="200" height="150"/>
+		  <nav class="main-nav">
+		     <ul>
+			    <li><a class="active" href="index.html">Home</a></li>
+				<li><a href="About Us.html">About Us</a></li>
+				<li><a href="Training.html">Training</a></li>
+				
+				<li><a href="Contact.html">Contact Us</a></li>
+				
+			 </ul>
+		  </nav>
+	  </header><br>
+	  
+  <div class="Mau">
+  <form action="contact.php" method="post">
+   <label>Your Name:</label><br>
+   <input name="name" placeholder="Type Here"  id="name"><br><br>
+   <label>Email:</label><br>
+   <input name="email" type="email" placeholder="Type Here" id="email"><br><br>
+   <label>Message:</label><br>
+   <textarea name="message" placeholder="Type Here"></textarea><br><br>
+   <input id="submit" name="submit" type="submit" value="Submit">
+   
+   </form><br>
+  
+  </div><br>
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="clr"></div>
+	  <footer>
+	     <p>Copyright &copy; 2016 All Right Reserve</p>
+	  </footer>
+   </div>	  
+</body>
+</html>
